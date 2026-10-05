@@ -1,0 +1,25 @@
+{
+  "name": "pope-test",
+  "version": "1.0.0",
+  "popePackageName": "demo",
+  "popeDependencies": {
+    "Paulius/Translation": "^0.0.1",
+    "Paulius/Util": "^0.0.1",
+    "Paulius/DomainFramework": "^0.0.1"
+  },
+  "popeToolVersion": "0.5.4",
+  "buildPath": [
+    {
+      "path": "src",
+      "type": "source"
+    },
+    {
+      "path": "pope_packages/Paulius",
+      "type": "source"
+    },
+    {
+      "path": "pope_packages/dependencies",
+      "type": "source"
+    }
+  ]
+}

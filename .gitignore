@@ -1,0 +1,4 @@
+pope_packages/
+.gradle/
+.builder/
+*.r

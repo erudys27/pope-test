@@ -1,0 +1,28 @@
+CLASS demo.Person:
+
+    DEFINE PUBLIC PROPERTY FirstName AS CHARACTER NO-UNDO GET. SET.
+    DEFINE PUBLIC PROPERTY LastName  AS CHARACTER NO-UNDO GET. SET.
+    DEFINE PUBLIC PROPERTY BirthDate AS DATE      NO-UNDO GET. SET.
+
+    CONSTRUCTOR PUBLIC Person(pFirstName AS CHARACTER, pLastName AS CHARACTER, pBirthDate AS DATE):
+        THIS-OBJECT:FirstName = pFirstName.
+        THIS-OBJECT:LastName  = pLastName.
+        THIS-OBJECT:BirthDate = pBirthDate.
+    END CONSTRUCTOR.
+
+    METHOD PUBLIC CHARACTER GetFullName():
+        RETURN THIS-OBJECT:FirstName + " " + THIS-OBJECT:LastName.
+    END METHOD.
+
+    METHOD PUBLIC INTEGER GetAge():
+        DEFINE VARIABLE iAge AS INTEGER NO-UNDO.
+
+        iAge = YEAR(TODAY) - YEAR(THIS-OBJECT:BirthDate).
+        IF MONTH(TODAY) < MONTH(THIS-OBJECT:BirthDate) OR
+           (MONTH(TODAY) = MONTH(THIS-OBJECT:BirthDate) AND DAY(TODAY) < DAY(THIS-OBJECT:BirthDate)) THEN
+            iAge = iAge - 1.
+
+        RETURN iAge.
+    END METHOD.
+
+END CLASS.

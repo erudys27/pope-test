@@ -1,0 +1,71 @@
+{
+  "trustedDirectSources": {"PauliusKu/Language": "https://github.com/PauliusKu/Language@v0.0.1"},
+  "resolved": {
+    "Paulius/Translation": {
+      "installSubpath": "Paulius",
+      "integrity": "sha256:c9a4d14004256927a0aa0f86b4cfbaab8ce90e7a81004ac42254ca736f2be0f8",
+      "files": [
+        "PauliusKup/Translation/ITranslationService.cls",
+        "PauliusKup/Translation/TranslationService.cls",
+        "PauliusKup/Translation/TranslationServiceParam.cls",
+        "PauliusKup/Translation/TranslationsMessage.cls",
+        "PauliusKup/Translation/config.i"
+      ],
+      "source": "C:\\Users\\erudys\\.pope\\cache\\Paulius\\Translation\\main\\src",
+      "version": "0.0.1"
+    },
+    "Paulius/Util": {
+      "installSubpath": "Paulius",
+      "integrity": "sha256:020cd8d42a90d184d165d7009fb31ffaa493fc05123d791dd9ccb4dd8456f252",
+      "files": [
+        "PauliusKup/Util/Formatter/IFormatter.cls",
+        "PauliusKup/Util/Formatter/MyFormatter.cls",
+        "PauliusKup/Util/Substitutable/ASubstitutable.cls",
+        "PauliusKup/Util/Substitutable/ISubstitutable.cls",
+        "PauliusKup/Util/Substitutable/substitutableMethod.i",
+        "PauliusKup/Util/Substitutable/substitutableMethods.i"
+      ],
+      "source": "C:\\Users\\erudys\\.pope\\cache\\Paulius\\Util\\v0.0.1\\src",
+      "version": "0.0.1"
+    },
+    "PauliusKu/Language": {
+      "installSubpath": "dependencies",
+      "integrity": "sha256:913e500cfed590328d6774ad4f736b1d3021f1c7725a7e648fd1543d27cb5cbe",
+      "files": [
+        "PauliusKup/Language/ILanguageRepository.cls",
+        "PauliusKup/Language/ILanguageService.cls",
+        "PauliusKup/Language/Language.cls",
+        "PauliusKup/Language/LanguageError.cls",
+        "PauliusKup/Language/LanguageRepository.cls",
+        "PauliusKup/Language/LanguageService.cls",
+        "PauliusKup/Language/config.i"
+      ],
+      "source": "C:\\Users\\erudys\\.pope\\cache\\_direct\\PauliusKu\\Language\\v0.0.1\\src",
+      "version": "0.0.1"
+    },
+    "Paulius/DomainFramework": {
+      "installSubpath": "Paulius",
+      "integrity": "sha256:0ebcdb1a07b0ab37e80093b00ef7a619fc7c97bba5df5f10897de37ce66bd1c8",
+      "files": [
+        "PauliusKup/DomainFramework/Impl/DomainMode.cls",
+        "PauliusKup/DomainFramework/Impl/RepositoryMode.cls",
+        "PauliusKup/DomainFramework/Impl/SetupError.cls",
+        "PauliusKup/DomainFramework/Impl/globalConfigFooter.i",
+        "PauliusKup/DomainFramework/Impl/globalConfigLine.i",
+        "PauliusKup/DomainFramework/Impl/moduleFactoryMethod.i",
+        "PauliusKup/DomainFramework/Mock/IDomainMock.cls",
+        "PauliusKup/DomainFramework/Mock/IRepositoryMock.cls",
+        "PauliusKup/DomainFramework/ModuleFactory.cls",
+        "PauliusKup/DomainFramework/example/ExampleModuleFactory.cls",
+        "PauliusKup/DomainFramework/example/exampleGlobalConfig.i",
+        "PauliusKup/DomainFramework/example/exampleModule/IModule.cls",
+        "PauliusKup/DomainFramework/example/exampleModule/IModuleRepository.cls",
+        "PauliusKup/DomainFramework/example/exampleModule/Module.cls",
+        "PauliusKup/DomainFramework/example/exampleModule/ModuleRepository.cls",
+        "PauliusKup/DomainFramework/example/exampleModule/config.i"
+      ],
+      "source": "C:\\Users\\erudys\\.pope\\cache\\Paulius\\DomainFramework\\main\\src",
+      "version": "0.0.1"
+    }
+  }
+}
