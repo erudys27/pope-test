@@ -7,7 +7,7 @@
     "Paulius/Util": "^0.0.1",
     "Paulius/DomainFramework": "^0.0.1"
   },
-  "popeToolVersion": "0.5.4",
+  "popeToolVersion": "0.5.5",
   "buildPath": [
     {
       "path": "src",
